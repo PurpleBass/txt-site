@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plain text & Markdown editor · Txt</title>
+<meta name="description" content="Plain text & Markdown editor for Txt">
+<link rel="icon" href="./assets/icon.png">
+<style>
+  :root { --accent: #0a84ff; --bg: #fbfbfd; --fg: #1d1d1f; --muted: #6e6e73; --card: #fff; --line: #e5e5ea; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #000; --fg: #f5f5f7; --muted: #a1a1a6; --card: #1c1c1e; --line: #38383a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+  header { border-bottom: 1px solid var(--line); background: var(--card); }
+  .bar { max-width: 760px; margin: 0 auto; padding: 14px 20px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 600; color: var(--fg); text-decoration: none; }
+  .brand img { width: 32px; height: 32px; border-radius: 8px; }
+  nav { margin-left: auto; display: flex; gap: 18px; font-size: 15px; }
+  nav a { color: var(--muted); text-decoration: none; }
+  nav a:hover, nav a[aria-current="page"] { color: var(--fg); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 20px 64px; }
+  h1 { font-size: 36px; line-height: 1.15; margin: 0 0 6px; letter-spacing: -0.02em; }
+  h2 { font-size: 22px; margin: 36px 0 8px; }
+  h3 { font-size: 18px; margin: 24px 0 4px; }
+  .meta { color: var(--muted); font-size: 15px; margin-bottom: 28px; }
+  .summary { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 12px; padding: 16px 20px; margin: 20px 0; }
+  a { color: var(--accent); }
+  ul { padding-left: 22px; }
+  details { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 18px; margin: 10px 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  .button { display: inline-block; background: var(--accent); color: #fff; padding: 10px 20px; border-radius: 999px; text-decoration: none; font-weight: 600; }
+  footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  footer .bar { justify-content: space-between; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="brand" href="./"><img src="./assets/icon.png" alt="">Txt</a>
+    <nav><a href="./privacy/">Privacy</a> <a href="./terms/">Terms</a> <a href="./support/">Support</a></nav>
+  </div>
+</header>
+<main>
+
+<p><img src="./assets/icon.png" alt="Txt app icon" width="120" height="120" style="border-radius:26px"></p>
+<h1>Txt</h1>
+<p style="font-size:20px;color:var(--muted)">A minimal, distraction-free editor for .txt and Markdown files on iPhone and iPad.</p>
+<ul>
+<li>Open and edit files in place: on your device, in iCloud Drive or other file providers</li>
+<li>Find &amp; replace, a live line/column readout, and a coding-friendly keyboard row</li>
+<li>Markdown preview, word/character/line stats, and export as .txt, .md or .csv</li>
+<li>No accounts, no tracking, no data collection</li>
+</ul>
+<p><a class="button" href="#">Download on the App Store (coming soon)</a></p>
+<p><a href="./privacy/">Privacy Policy</a> · <a href="./terms/">Terms of Use</a> · <a href="./support/">Support</a></p>
+
+</main>
+<footer>
+  <div class="bar">
+    <span>© 2026 Txt</span>
+    <span><a href="./privacy/">Privacy</a> <a href="./terms/">Terms</a> <a href="./support/">Support</a></span>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support · Txt</title>
+<meta name="description" content="Support for Txt">
+<link rel="icon" href="../assets/icon.png">
+<style>
+  :root { --accent: #0a84ff; --bg: #fbfbfd; --fg: #1d1d1f; --muted: #6e6e73; --card: #fff; --line: #e5e5ea; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #000; --fg: #f5f5f7; --muted: #a1a1a6; --card: #1c1c1e; --line: #38383a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+  header { border-bottom: 1px solid var(--line); background: var(--card); }
+  .bar { max-width: 760px; margin: 0 auto; padding: 14px 20px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 600; color: var(--fg); text-decoration: none; }
+  .brand img { width: 32px; height: 32px; border-radius: 8px; }
+  nav { margin-left: auto; display: flex; gap: 18px; font-size: 15px; }
+  nav a { color: var(--muted); text-decoration: none; }
+  nav a:hover, nav a[aria-current="page"] { color: var(--fg); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 20px 64px; }
+  h1 { font-size: 36px; line-height: 1.15; margin: 0 0 6px; letter-spacing: -0.02em; }
+  h2 { font-size: 22px; margin: 36px 0 8px; }
+  h3 { font-size: 18px; margin: 24px 0 4px; }
+  .meta { color: var(--muted); font-size: 15px; margin-bottom: 28px; }
+  .summary { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 12px; padding: 16px 20px; margin: 20px 0; }
+  a { color: var(--accent); }
+  ul { padding-left: 22px; }
+  details { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 18px; margin: 10px 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  .button { display: inline-block; background: var(--accent); color: #fff; padding: 10px 20px; border-radius: 999px; text-decoration: none; font-weight: 600; }
+  footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  footer .bar { justify-content: space-between; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="brand" href="../"><img src="../assets/icon.png" alt="">Txt</a>
+    <nav><a href="../privacy/">Privacy</a> <a href="../terms/">Terms</a> <a href="../support/" aria-current="page">Support</a></nav>
+  </div>
+</header>
+<main>
+
+<h1>Support</h1>
+<p>Questions, bug reports or feature ideas? Email <a href="mailto:txt@harcode.com">txt@harcode.com</a>. We usually reply within 2 business days.</p>
+<p><a class="button" href="mailto:txt@harcode.com?subject=Txt%20Support">Contact support</a></p>
+<h2>FAQ</h2>
+<details><summary>Where are my files saved?</summary><p>Wherever you created or opened them: On My iPhone/iPad, iCloud Drive, or another provider in the Files app. Txt edits the original file in place, not a copy.</p></details><details><summary>How do I open a file from Dropbox, Google Drive or another app?</summary><p>Enable that provider in the Files app (Browse → ⋯ → Edit), then open the file from Txt's document browser.</p></details><details><summary>Which file types are supported?</summary><p>Plain text (.txt) and Markdown (.md, .markdown, .mdown). You can export any document as .txt, .md or .csv from the ⋯ menu.</p></details><details><summary>How do I preview Markdown?</summary><p>Open a Markdown file, tap ⋯ and choose Preview Markdown.</p></details><details><summary>How do I find and replace text?</summary><p>Tap ⋯ → Find &amp; Replace, or the search key on the keyboard row. Use the arrows to jump between matches, or Replace / All.</p></details><details><summary>How do I back up my documents?</summary><p>Store them in iCloud Drive or another cloud provider, or use Share / Export As to send copies elsewhere.</p></details><details><summary>How do I delete my data?</summary><p>Delete documents in the Files app. Txt keeps no data on any server, so there is nothing else to remove.</p></details><details><summary>Can I open two documents side by side on iPad?</summary><p>Yes. Txt supports multiple windows, so you can use Split View with two documents.</p></details>
+<h2>Requirements</h2>
+<p>iPhone or iPad running iOS / iPadOS 17.0 or later.</p>
+<h2>Legal</h2>
+<p><a href="../privacy/">Privacy Policy</a> · <a href="../terms/">Terms of Use</a></p>
+
+</main>
+<footer>
+  <div class="bar">
+    <span>© 2026 Txt</span>
+    <span><a href="../privacy/">Privacy</a> <a href="../terms/">Terms</a> <a href="../support/" aria-current="page">Support</a></span>
+  </div>
+</footer>
+</body>
+</html>
